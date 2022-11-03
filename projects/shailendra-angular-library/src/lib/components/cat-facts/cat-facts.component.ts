@@ -2,9 +2,8 @@ import { Component } from '@angular/core';
 import { CatService } from '../../services/cat.service';
 
 @Component({
-  selector: 'lib-cat-facts',
-  templateUrl: './cat-facts.component.html',
-  styleUrls: ['./cat-facts.component.css'],
+  selector: 'cat-facts',
+  templateUrl: './cat-facts.component.html'
 })
 export class CatFactsComponent {
   catFacts: any;

@@ -4,15 +4,15 @@ This library is a collection of Angular custom components, directives, and pipes
 
 ### How to use this library
 
-- Install the latest version of `shailendra-angular-library`
+- Install the latest version of `shailendra-angular-library` npm package by `npm install shailendra-angular-library`.
 
-- Import `ShailendraAngularLibraryModule` in your `app.module.ts` file (You may a  VClso need to import `CUSTOM_ELEMENTS_SCHEMA` in module and component file)
+- Import `ShailendraAngularLibraryModule` in your `app.module.ts` file (You may also need to import `CUSTOM_ELEMENTS_SCHEMA` in module and component file)
 
-- It contains a custom component. We can include component markup in the template file by using the component tag `<cat-facts></cat-facts>`
+- This library has a custom component. We can include component markup in the template file by using the component tag `<cat-facts></cat-facts>`
 
-- It contains an attribute directive. It takes two parameters radius and the background color. We can use this directive by this sample snippet `<div [libRoundBlock]="'30px'" [bgColor]="'blue'"></div>`
+- This library has an attribute directive. It takes two parameters radius and the background color. We can use this directive by this sample snippet `<div [libRoundBlock]="'30px'" [bgColor]="'blue'"></div>`
 
-- It contains a custom pipe that takes multiple parameters. We can use this pipe by this sample snippet `<p>{{ "First" | fullname : "Second" : "N…" }}</p>`
+- This library has a custom pipe that takes multiple parameters. We can use this pipe by this sample snippet `<p>{{ "First" | fullname : "Second" : "N…" }}</p>`
 
 ### Local Development
 
@@ -24,7 +24,7 @@ This library is a collection of Angular custom components, directives, and pipes
 
 - The main applicaiton is developed to test the library components, directives and pipes (In the src folder, there will be main module and component)
 
-- In the `projects` folder there will be a library folder `shailendra-angular-library`. Use this folder for further development.
+- In the `projects` folder there will be a library folder `shailendra-angular-library`. Use this folder for creating more components, directives and pipes.
 
 - Generate component, directive or pipe by using this command `ng g s components/compname --project=shailendra-angular-library`
 

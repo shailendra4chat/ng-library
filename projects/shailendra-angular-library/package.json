@@ -1,6 +1,6 @@
 {
   "name": "shailendra-angular-library",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This library is a collection of Angular custom components, directives, and pipes. It is based on Angular latest version 14.2.",
   "author": "Shailendra Singh <shailendra4chat@github.com>",
   "repository": {
